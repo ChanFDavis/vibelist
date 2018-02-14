@@ -1,0 +1,8 @@
+{
+	"author" : "Chandler Davis",
+	"name" : "vibelist",
+	"version" : "0.0.1",
+	"description" : "Takes in a string, generates a vibe from the string, and creates a Spotify playlist with the same vibe.",
+	"bugs" : "https://github.com/ChanFDavis/vibelist/issues",
+	
+}
