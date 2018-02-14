@@ -1,0 +1,20 @@
+Hello, user
+
+Welcome to my webapp, codenamed VIBEY. The purpose of this program is to take some kind of text input and form a Spotify playlist based off of it. Here are the steps it takes.
+
+1. Prompts user for a form of text input.
+	- As of writing, only .txt files are allowed.
+2. Parse through the text and pick out keywords
+	- These are planned to be anything but 'neutral' keywords such as: 'a', 'is', 'the', 'are', etc.
+3. Each word correlates to a certain number of attributes and there is a scale to how much of the attribute is given by the word.
+	- This is still being decided, but I think that the general form follows this example:
+	-	'depressing'= happiness -2, anger +0, confusion +1
+4. After reading the file, the app will create a vibe profile by adding up all the attribute values of the words in the document.
+5. Using the vibe profile, the app will create a Spotify playlist with a given number of songs that are:
+	a. Already saved in the user's library
+	b. Correspond to the vibe of the vibe profile
+6. The app then saves this playlist to the user's library with the following info:
+	- Name: "Vibe Playlist" + the date/time it was created
+	- Description: a link to the app, the vibe profile, other information
+
+** Note: This was written at the beginning of development and everything is subject to change

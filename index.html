@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src='vibey.js'></script>
 	<title>Give Me a Vibe</title>
 </head>
-<body>
+<body onload='init();'>
 <p>Enter your 'vibe' here</p>
-<input type="text" name="givenvibe" placeholder="Enter 'vibe' text here">
-<input type="button" name="submit" value="submit">
+<input type='text' name='givenvibe' id='givenvibe' placeholder='Enter 'vibe' text here'>
+<input type='button' name='submit-button' value='submit' id='submit-button' onlick='parseWords();'>
 </body>
 </html>
