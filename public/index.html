@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<script type="text/javascript" src='vibey.js'></script>
+	
 	<title>Give Me a Vibe</title>
+
+	<style type="text/css">
+		body {
+			background-color: #1DB954;
+		}
+
+		p {
+			color: #191414;
+			font-family: sans-serif;
+			font-size: 32px;
+			font-weight: 600;
+		}
+	</style>
+
 </head>
+
 <body onload='init();'>
-<p>Enter your 'vibe' here</p>
-<input type='text' name='givenvibe' id='givenvibe' placeholder='Enter 'vibe' text here'>
-<input type='button' name='submit-button' value='submit' id='submit-button' onlick='parseWords();'>
+	<p>Hey, give me a vibe!</p>
+
+	<input type='text' name='givenvibe' id='givenvibe' placeholder='Enter vibe text here'>
+
+	<input type='button' name='submit-button' value='Submit' id='submit-button' onlick='parseWords();'>
+
 </body>
+
 </html>
