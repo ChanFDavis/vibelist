@@ -10,7 +10,7 @@ function init()
 
 function parseWords(filename)
 {
-	fs.readFile(filename, 'utf8', function(err, content)
+	fs.readFile(filename, 'utf8', function(err, contents)
 	{
 		console.log(contents);
 	});

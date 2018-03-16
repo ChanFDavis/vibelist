@@ -1,8 +1,26 @@
 {
-	"author" : "Chandler Davis",
-	"name" : "vibelist",
-	"version" : "0.0.1",
-	"description" : "Takes in a string, generates a vibe from the string, and creates a Spotify playlist with the same vibe.",
-	"bugs" : "https://github.com/ChanFDavis/vibelist/issues",
-	
+  "name": "vibelist",
+  "version": "0.0.2",
+  "description": "Takes in a string, generates a vibe from the string, and creates a Spotify playlist with the same vibe.",
+  "main": "vibey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanFDavis/vibelist.git"
+  },
+  "keywords": [
+    "spotify",
+    "web",
+    "vibe",
+    "vibey",
+    "javascript"
+  ],
+  "author": "Chandler Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanFDavis/vibelist/issues"
+  },
+  "homepage": "https://github.com/ChanFDavis/vibelist#readme"
 }
